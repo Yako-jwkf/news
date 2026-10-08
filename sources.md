@@ -36,7 +36,7 @@
 | arXiv の番号指定 | https://export.arxiv.org/api/query?id_list=<番号,番号> | topics と test が引いている論文の版と更新日。新しい版が出ていれば要旨を読み直す | 2026-10-08 届いた |
 | METR | https://metr.org/blog/ | 新しいモデルの評価 | 2026-10-08 届いた |
 
-arXiv の主題(検索は `submittedDate:[開始 TO 終了]` で期間を区切る。広い語だけだと関係のない分野が混ざる。2026-10-08 に4語で2週間207件):
+arXiv の主題(検索は `submittedDate:[開始 TO 終了]` で期間を区切る。curl では角かっこをそのまま送るために `-g` を付ける(2026-10-08 の試しで必要だった)。広い語だけだと関係のない分野が混ざる。2026-10-08 に4語で2週間207件):
 1. エージェントの指示ファイル・スキル・フック・権限: `abs:"AGENTS.md"`、`abs:"CLAUDE.md"`、`abs:"agent skills"`、`abs:"coding agent"` と `instruction`・`guardrail`・`permission`・`hook` の組み合わせ
 2. AI の弱点: `sycophancy`(相手に合わせすぎる)、`calibration`(自信の見積もり)、`hallucination`(作り話)、`introspection`(自分の内側を報告する力)、`self-verification`(自分の点検)。今の世代のモデルで試したものを先に
 3. AI の評価の仕方: `agent evaluation`、`benchmark`、`time horizon`
