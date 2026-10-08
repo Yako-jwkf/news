@@ -4,10 +4,10 @@
 
 決まり:
 - 一次情報(公式の文書・変更履歴・論文の本文や要旨)を先に読む。二次情報(記事・論評・議論)は「読み物」と道案内にだけ使う。
-- 届かなかったら、その号の「7. 開けなかったもの」に書き、下の表の「前回届いたか」を更新する。
+- 届かなかったら、その号の「記録」の「開けなかったもの」に書き、下の表の「前回届いたか」を更新する。
 - ページや PDF を丸ごと写さない。短い引用と URL と取得日だけ。
 
-## 1. Claude Code の変更 → 号の3、topics/claude-code-changes.md、照合
+## 1. Claude Code の変更 → 号の「記録」の「Claude Code の変更」と「食い違い」、topics/claude-code-changes.md
 
 | サイト | URL | 取るもの | 前回届いたか |
 |---|---|---|---|
@@ -17,7 +17,7 @@
 
 分野: フック(hooks)、権限(permissions)、設定(settings)、スキル(skills)、サブエージェント(sub-agents)、サンドボックス(sandboxing)、クラウド(cloud-environments・claude-code-on-the-web)、定期実行(routines)、CLAUDE.md(memory)。
 
-## 2. Anthropic の発表・モデル → 号の4、topics/intelligence.md
+## 2. Anthropic の発表・モデル → 号の「記録」の「研究と発表」、topics/intelligence.md
 
 | サイト | URL | 取るもの | 前回届いたか |
 |---|---|---|---|
@@ -28,7 +28,7 @@
 | API のリリースノート | https://platform.claude.com/docs/en/release-notes/overview | 新しいモデル・機能が出た日 | 2026-10-08 届いた |
 | システムカード | 発表の記事からリンクされる PDF(www-cdn.anthropic.com) | 新しいモデルが出たときに、弱点・問題の行動の節 | 2026-10-08 届いた(Sonnet 5.5・Haiku 5.5・Opus 5.5) |
 
-## 3. 研究 → 号の2・4、topics/agent-config-research.md・topics/intelligence.md、照合
+## 3. 研究 → 号の「逆向きの結果」と「記録」の「研究と発表」、「食い違い」(論文の版の照合)、topics/agent-config-research.md・topics/intelligence.md
 
 | サイト | URL | 取るもの | 前回届いたか |
 |---|---|---|---|
@@ -41,7 +41,7 @@ arXiv の主題(検索は `submittedDate:[開始 TO 終了]` で期間を区切�
 2. AI の弱点: `sycophancy`(相手に合わせすぎる)、`calibration`(自信の見積もり)、`hallucination`(作り話)、`introspection`(自分の内側を報告する力)、`self-verification`(自分の点検)。今の世代のモデルで試したものを先に
 3. AI の評価の仕方: `agent evaluation`、`benchmark`、`time horizon`
 
-## 4. 読み物(二次情報) → 号の5・6
+## 4. 読み物(二次情報) → 号の「読み物」と「あなた向けの1件」
 
 | サイト | URL | 取るもの | 前回届いたか |
 |---|---|---|---|
