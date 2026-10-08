@@ -26,7 +26,7 @@
 | 技術記事 | https://www.anthropic.com/engineering | 同上 | 2026-10-08 届いた |
 | Claude の記事 | https://claude.com/blog(https://claude.com/resources/articles に移る) | 使い方・設計の方針の記事 | 2026-10-08 届いた |
 | API のリリースノート | https://platform.claude.com/docs/en/release-notes/overview | 新しいモデル・機能が出た日 | 2026-10-08 届いた |
-| システムカード | 発表の記事からリンクされる PDF(www-cdn.anthropic.com) | 新しいモデルが出たときに、弱点・問題の行動の節 | 2026-10-08 届いた(Opus 5.5) |
+| システムカード | 発表の記事からリンクされる PDF(www-cdn.anthropic.com) | 新しいモデルが出たときに、弱点・問題の行動の節 | 2026-10-08 届いた(Sonnet 5.5・Haiku 5.5・Opus 5.5) |
 
 ## 3. 研究 → 号の2・4、topics/agent-config-research.md・topics/intelligence.md、照合
 
