@@ -1,0 +1,22 @@
+name: check
+
+# 号の書き方と、定期実行のコミット(題が「号:」)が書いてよい場所だけを変えたかを点検する。
+# 中身が正しいかは見ない(scripts/check_issue.py の説明)。
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: python3 scripts/check_issue.py --all
+      - if: github.event_name == 'push'
+        run: python3 scripts/check_issue.py --commits "${{ github.event.before }}" "${{ github.sha }}"
